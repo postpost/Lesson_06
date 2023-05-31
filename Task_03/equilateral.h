@@ -3,5 +3,5 @@
 
 class Equilateral :public Triangle {
 public:
-	Equilateral(int a, int A);
+	Equilateral(int a);
 };

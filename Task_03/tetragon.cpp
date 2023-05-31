@@ -16,9 +16,26 @@ Tetragon::Tetragon(int a, int b, int c, int d, int A, int B, int C, int D) {
 	this->C = C;
 	this->D = D;
 };
-
+int Tetragon::get_a() {
+	return a;
+};
+int Tetragon::get_b() {
+	return b;
+};
+int Tetragon::get_c() {
+	return c;
+};
 int Tetragon::get_d() {
 	return d;
+};
+int Tetragon::get_A() {
+	return A;
+};
+int Tetragon::get_B() {
+	return B;
+};
+int Tetragon::get_C() {
+	return C;
 };
 int Tetragon::get_D() {
 	return D;

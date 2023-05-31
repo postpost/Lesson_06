@@ -33,7 +33,7 @@ int main() {
 
 	std::cout << std::endl;
 
-	Equilateral eqTr(20, 60);
+	Equilateral eqTr(20);
 	Shape* shape_03 = &eqTr;
 	printInfo(shape_03);
 
@@ -51,13 +51,13 @@ int main() {
 
 	std::cout << std::endl;
 
-	Square sq(10);
+	Square sq(20);
 	Shape* shape_06 = &sq;
 	printInfo(shape_06);
 
 	std::cout << std::endl;
 
-	Parallelogram paral(10, 20, 30, 40, 50, 60, 70, 80);
+	Parallelogram paral(20, 30, 30, 40);
 	Shape* shape_07 = &paral;
 	printInfo(shape_07);
 

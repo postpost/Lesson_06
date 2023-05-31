@@ -1,7 +1,7 @@
 #pragma once
-#include "tetragon.h"
+#include "parallelogram.h"
 
-class Rhombus : public Tetragon {
+class Rhombus : public Parallelogram {
 public:
-	Rhombus(int a, int A, int D);
+	Rhombus(int a, int A, int B);
 };
